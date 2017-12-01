@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
+    
+<!-----Framework made by Bootstrap from https://getbootstrap.com/----->
 
 <head>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    
+    <!----- Icon made by Freepik from www.flaticon.com ----->
     <link rel="icon" href="img/Crimson_monkey_1616.png" sizes="16x16" type="png">
 
     <title>Big Challenge 2017</title>
@@ -13,13 +17,17 @@
     <!-- Normalize and Resets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
 
-
+    <!----Javascript made by Lokesh Dhakar from http://lokeshdhakar.com/projects/lightbox/ Twitter: https://twitter.com/lokesh ---->
+    <script type="text/javascript" src="/lightbox/js/lightbox.js"></script>
     <!-- Custom Styles -->
     <!-- normilize -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="css/owncss.css">
     <link rel="stylesheet" href="css/bootstrap-theme.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/owncss.css">
 
 
 </head>
@@ -27,109 +35,139 @@
 <body>
     <header class="site-header">
        <nav class="navbar navbar-inverse">
-  <div class="container">
-    <!-- Titel und Schalter werden für eine bessere mobile Ansicht zusammengefasst -->
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#"><img src ="img/Crimson_monkey_3232.png"></a>
-    </div>
+            <div class="container">
 
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(aktuell)</span></a></li>
-        <li><a href="#">Link</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+                <div class="navbar-header"> 
+                    <!----- Icon made by Freepik from www.flaticon.com ----->
+                    <a class="navbar-brand" href="#"><img src ="img/Crimson_monkey_3232.png"></a>  
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="https://www.medieninformatik.th-koeln.de/wiki/index.php?title=Web-basierte_Anwendungen_1:_WWW-Technologien:WS1718:Finale_Challange_07_Dezember_2017#Team_5_-_Crimson_Monkey">Team</a></li>
+                        <li><a href="https://github.com/KayRuck/BigChallenge2017">Git Repo</a></li>
+                        <li><a href="https://www.medieninformatik.th-koeln.de/w/Web-basierte_Anwendungen_1:_WWW-Technologien">Modul</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <main  class="container">
+        <div class="alert alert-danger" role="alert"><p>WARNUNG! Dies ist ein Projekt von Studenten</p></div>
         <section class="section content">
             <div class="jumbotron">
-    <h2 >Willkommen auf der Konzeptseite der Crimsion Monkeys</h2>
-    <p class="lead"> <br> 
-        Hier kommt ein kleiner Einführungstext über unseren Kontent
-    </p>
-  </div>
-        </section>
-    </main>
-
-        <footer class="footy container">
-           
-            <div class="panel panel-default">
-
-                <div class="panel-heading">Projektinformation</div>
-                <div class="panel-body">
-                    <p>
-                    Dies ist ein Projekt von Studenten der TH Köln für das Fach Web-basierte Anwendungen 1.
-                    <br>    
-                    This is a project of students of the Technical University of Cologne for the university module web-based applications 1.
-                    </p>
+                <h2 >Willkommen auf der Konzeptseite der Crimson Monkeys</h2>
+                <p class="lead"> 
+                <br> Hier kommt ein kleiner Einführungstext über unseren Konzept </p>
+                
+                <h5>Wie weit sind wir mit dem Projekt fortgeschritten</h5>
+                <div class="progress">
+                    
+                    <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">60%</div>
                 </div>
-                <div class="panel-heading">Mitglieder der Crimsion Monkeys</div>
-                <!-- Tabelle -->
-                <table class="table table-hover table-condensed">
-                    <thead>
-                        <tr>
-                          <th>#</th>
-                          <th>Name</th>
-                          <th>Vorname</th>
-                          <th>GitHub Acc</th>
-                          <th>E-mail</th>
-                        </tr>
-                    </thead>
-                     <tbody>
-                        <tr>
-                          <td>1</td>
-                          <td>Ruck</td>
-                          <td>Kay</td>
-                          <td><a href="https://github.com/KayRuck">KayRuck</a></td>
-                          <td>kay_nicole.ruck@smail.th-koeln.de</td>
-                        </tr>
-                        <tr>
-                          <td>2</td>
-                          <td>Doe</td>
-                          <td>Joe</td>
-                          <td>Muster</td>
-                          <td>Muster</td>
-                        </tr>
-                        <tr>
-                          <td>3</td>
-                          <td>Doe</td>
-                          <td>Joe</td>
-                          <td>Muster</td>
-                          <td>Muster</td>
-                        </tr>
-                          <tr>
-                          <td>4</td>
-                          <td>Doe</td>
-                          <td>Joe</td>
-                          <td>Muster</td>
-                          <td>Muster</td>
-                        </tr>
-                        <tr>
-                          <td>5</td>
-                          <td>Doe</td>
-                          <td>Joe</td>
-                          <td>Muster</td>
-                          <td>Muster</td>
-                        </tr>
-                    </tbody>
-
-                </table>
+                
+                <h5>Wie weit haben wir unsere Ideen umgesetzt</h5>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">20%</div>
+                </div>
             </div>
-
-  
-                    <ul class="list-inline">
-                        <li><a href="https://github.com/KayRuck/BigChallenge2017">Git Repo</a> </li>
-                        <li><a href="http://samplel.com/">Blog</a> </li>
-                        <li><a href="http://samplel.com/">Über uns</a></li>
-                        <li><a href="http://samplel.com/">Impressum</a></li>
-                        <li><a href="http://samplel.com/">Datenschutz</a></li>
-                    </ul>
-
-        </footer>
-
+        </section>
+    </main>    
+    <section class="container panel">
+        <h2 class="txt-gallery-headline"><strong>Mockup, Konzept bilder etc.</strong></h2>
+        <div class="row">
+            <ul class="img-gallery">
+                <li class="col-lg-4"><a class="thumbnail img-overlay" href="../images/dummy-pic.png" rel="lightbox" title="sample"><img src="../images/dummy-pic.png">Sample</a></li>
+                <li class="col-lg-4"><a class="thumbnail img-overlay" href="../images/dummy-pic.png" rel="lightbox" title="sample"><img src="../images/dummy-pic.png">Sample</a></li>
+                <li class="col-lg-4"><a class="thumbnail img-overlay" href="../images/dummy-pic.png" rel="lightbox" title="sample"><img src="../images/dummy-pic.png">Sample</a></li>
+                <li class="col-lg-4"><a class="thumbnail img-overlay" href="../images/dummy-pic.png" rel="lightbox" title="sample"><img src="../images/dummy-pic.png">Sample</a></li>
+                <li class="col-lg-4"><a class="thumbnail img-overlay" href="../images/dummy-pic.png" rel="lightbox" title="sample"><img src="../images/dummy-pic.png">Sample</a></li>
+                <li class="col-lg-4"><a class="thumbnail img-overlay" href="../images/dummy-pic.png" rel="lightbox" title="sample"><img src="../images/dummy-pic.png">Sample</a></li>
+            </ul>
+            <div>
+                <h3 class="txt-gallery">Hier sollte ein wunderbarer Text stehen in dem Wir erklären warum unser Produkt das beste ist.</h3>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+    <div class="panel panel-default">
+      <div class="panel-heading">Projektinformation</div>
+        <div class="panel-body">
+            <p> Dies ist ein Projekt von Studenten der TH Köln für das Fach Web-basierte Anwendungen 1.
+            <br> This is a project of students of the Technical University of Cologne for the university module web-based applications 1.</p>
+        </div>
+        <div class="panel-heading">Mitglieder der Crimsion Monkeys</div>
+        
+        <table class="table table-hover table-condensed">
+            <section class="container">
+            <thead>
+                <tr>
+                  <th> </th>
+                  <th>#</th>
+                  <th>Name</th>
+                  <th>Vorname</th>
+                  <th>GitHub Acc</th>
+                  <th>GMID</th>
+                </tr>
+            </thead>
+             <tbody>
+                <tr>
+                  <td> </td>
+                  <td>1</td>
+                  <td>Ruck</td>
+                  <td>Kay Nicole</td>
+                  <td><a href="https://github.com/KayRuck">KayRuck</a></td>
+                  <td>inf151</td>
+                </tr>
+                <tr>
+                  <td> </td>
+                  <td>2</td>
+                  <td>Struckmann</td>
+                  <td>Merle</td>
+                  <td><a href="https://github.com/MerleStr">MerleStr</a></td>
+                  <td>inf571</td>
+                </tr>
+                <tr>
+                  <td> </td>
+                  <td>3</td>
+                  <td>Doe</td>
+                  <td>Jon</td>
+                  <td>Muster</td>
+                  <td>Muster</td>
+                </tr>
+                <tr>
+                  <td> </td>
+                  <td>4</td>
+                  <td>Doe</td>
+                  <td>Jon</td>
+                  <td>Muster</td>
+                  <td>Muster</td>
+                </tr>
+                <tr>
+                  <td> </td>
+                  <td>5</td>
+                  <td>Doe</td>
+                  <td>Jon</td>
+                  <td>Muster</td>
+                  <td>Muster</td>
+                </tr>
+           </tbody>
+        </section> 
+        </table>  
+    </div>
+    </section>
+    <div class="container">
+    <footer class="panel-footer footy">
+        <ul class="list-inline">
+            <li><a href="https://github.com/KayRuck/BigChallenge2017">Git Repo</a> </li>
+            <li><a href="http://samplel.com/">Blog</a> </li>
+            <li><a href="http://samplel.com/">Über uns</a></li>
+            <li><a href="http://samplel.com/">Impressum</a></li>
+            <li><a href="http://samplel.com/">Datenschutz</a></li>
+        </ul>
+    </footer>
+    </div>
 </body>
 
 </html>

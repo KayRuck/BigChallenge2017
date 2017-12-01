@@ -1,0 +1,52 @@
+.img-gallery{
+    list-style: none;
+    margin-right: 40px;
+    margin-top: 20px;
+    
+}
+
+
+.txt-gallery{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 20px;    
+}
+
+.txt-gallery-headline{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;    
+}
+
+.img-overlay{
+	background-image: url(../img/overlay.png);
+    color: white;
+}
+
+.lightbox{
+	background-color:#eee;
+	padding: 10px;
+	border-bottom: 2px solid #666;
+	border-right: 2px solid #666;
+}
+
+.lightboxDetails{
+	font-size: 0.8em;
+	padding-top: 0.4em;
+}
+
+.lightboxCaption{ 
+    float: left; 
+}
+
+.keyboardMsg{ 
+    float: right; 
+}
+
+.lightbox img{ 
+    border: none; 
+} 
+
+.overlay img{ 
+    border: none; 
+}
