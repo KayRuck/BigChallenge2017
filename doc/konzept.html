@@ -5,43 +5,130 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="img/Crimson_monkey_1616.png" sizes="16x16" type="png">
 
-    <title>Ein passender Titel</title>
+    <title>Big Challenge 2017</title>
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:200,400,500,600,700">
     <!-- Normalize and Resets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
 
+
     <!-- Custom Styles -->
-    <link rel="stylesheet" href="styles/010-resets.css">
-    <link rel="stylesheet" href="styles/020-base.css">
-    <link rel="stylesheet" href="styles/030-typography.css">
-    <link rel="stylesheet" href="styles/040-layout.css">
-    <link rel="stylesheet" href="styles/050-components.css">
+    <!-- normilize -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+
 </head>
 
 <body>
     <header class="site-header">
-        <nav class="site-header__navigation">
-        </nav>
-        <section class="section content">
-            <h1 class="title">Die wichtigste Überschrift.</h1>
-        </section>
+       <nav class="navbar navbar-inverse">
+  <div class="container">
+    <!-- Titel und Schalter werden für eine bessere mobile Ansicht zusammengefasst -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><img src ="img/Crimson_monkey_3232.png"></a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link <span class="sr-only">(aktuell)</span></a></li>
+        <li><a href="#">Link</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
     </header>
 
-    <main>
+    <main  class="container">
         <section class="section content">
-            <header class="section__header">
-                <h2 class="title">Ich bin eine Bereichsüberschrift.</h2>
-                <h3 class="subtitle">Ich bin ein Subtitle.</h3>
-            </header>
+            <div class="jumbotron">
+    <h2 >Willkommen auf der Konzeptseite der Crimsion Monkeys</h2>
+    <p class="lead"> <br> 
+        Hier kommt ein kleiner Einführungstext über unseren Kontent
+    </p>
+  </div>
         </section>
     </main>
 
-    <footer class="footer">
-        <section class="section content">
-            <p>Ich bin ein Footer.</p>
-        </section>
-    </footer>
+        <footer class="footy container">
+           
+            <div class="panel panel-default">
+
+                <div class="panel-heading">Projektinformation</div>
+                <div class="panel-body">
+                    <p>
+                    Dies ist ein Projekt von Studenten der TH Köln für das Fach Web-basierte Anwendungen 1.
+                    <br>    
+                    This is a project of students of the Technical University of Cologne for the university module web-based applications 1.
+                    </p>
+                </div>
+                <div class="panel-heading">Mitglieder der Crimsion Monkeys</div>
+                <!-- Tabelle -->
+                <table class="table table-hover table-condensed">
+                    <thead>
+                        <tr>
+                          <th>#</th>
+                          <th>Name</th>
+                          <th>Vorname</th>
+                          <th>GitHub Acc</th>
+                          <th>E-mail</th>
+                        </tr>
+                    </thead>
+                     <tbody>
+                        <tr>
+                          <td>1</td>
+                          <td>Ruck</td>
+                          <td>Kay</td>
+                          <td><a href="https://github.com/KayRuck">KayRuck</a></td>
+                          <td>kay_nicole.ruck@smail.th-koeln.de</td>
+                        </tr>
+                        <tr>
+                          <td>2</td>
+                          <td>Doe</td>
+                          <td>Joe</td>
+                          <td>Muster</td>
+                          <td>Muster</td>
+                        </tr>
+                        <tr>
+                          <td>3</td>
+                          <td>Doe</td>
+                          <td>Joe</td>
+                          <td>Muster</td>
+                          <td>Muster</td>
+                        </tr>
+                          <tr>
+                          <td>4</td>
+                          <td>Doe</td>
+                          <td>Joe</td>
+                          <td>Muster</td>
+                          <td>Muster</td>
+                        </tr>
+                        <tr>
+                          <td>5</td>
+                          <td>Doe</td>
+                          <td>Joe</td>
+                          <td>Muster</td>
+                          <td>Muster</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div>
+
+  
+                    <ul class="list-inline">
+                        <li><a href="https://github.com/KayRuck/BigChallenge2017">Git Repo</a> </li>
+                        <li><a href="http://samplel.com/">Blog</a> </li>
+                        <li><a href="http://samplel.com/">Über uns</a></li>
+                        <li><a href="http://samplel.com/">Impressum</a></li>
+                        <li><a href="http://samplel.com/">Datenschutz</a></li>
+                    </ul>
+
+        </footer>
 
 </body>
 
