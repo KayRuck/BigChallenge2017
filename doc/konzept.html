@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="de">
     
-<!-----Framework made by Bootstrap from https://getbootstrap.com/----->
+<!--Framework made by Bootstrap from https://getbootstrap.com/-->
 
 <head>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     
-    <!----- Icon made by Freepik from www.flaticon.com ----->
+    <!--Icon made by Freepik from www.flaticon.com-->
     <link rel="icon" href="img/Crimson_monkey_1616.png" sizes="16x16" type="png">
 
     <title>Big Challenge 2017</title>
@@ -17,8 +17,10 @@
     <!-- Normalize and Resets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
 
-    <!----Javascript made by Lokesh Dhakar from http://lokeshdhakar.com/projects/lightbox/ Twitter: https://twitter.com/lokesh ---->
+    <!--Javascript made by Lokesh Dhakar from http://lokeshdhakar.com/projects/lightbox/ Twitter: https://twitter.com/lokesh-->
     <script type="text/javascript" src="/lightbox/js/lightbox.js"></script>
+    
+    <script type="text/javascript" src="/js/ownjs.js"></script>
     <!-- Custom Styles -->
     <!-- normilize -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -34,11 +36,11 @@
 
 <body>
     <header class="site-header">
-       <nav class="navbar navbar-inverse">
+       <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
 
                 <div class="navbar-header"> 
-                    <!----- Icon made by Freepik from www.flaticon.com ----->
+                    <!--Icon made by Freepik from www.flaticon.com-->
                     <a class="navbar-brand" href="#"><img src ="img/Crimson_monkey_3232.png"></a>  
                 </div>
 
@@ -53,8 +55,60 @@
         </nav>
     </header>
 
-    <main  class="container">
+    <main  class="container mycontainer">
         <div class="alert alert-danger" role="alert"><p>WARNUNG! Dies ist ein Projekt von Studenten</p></div>
+        
+                <div id="meinKarusell" class="carousel slide mykarusell">
+           <!-- Positionsanzeiger -->
+           <ol class="carousel-indicators">
+               <li data-target="#meinKarusell" data-slide-to="0" class="active" contenteditable="false"></li>
+               <li data-target="#meinKarusell" data-slide-to="1" class="" contenteditable="false"></li>
+               <li data-target="#meinKarusell" data-slide-to="2" class="" contenteditable="false"></li>
+               <li data-target="#meinKarusell" data-slide-to="3" class="" contenteditable="false"></li>
+           </ol>
+           <!-- Verpackung für die Elemente -->
+           <div class="carousel-inner" role="listbox">
+               <div class="item active">
+                   <img src="../images/dummy-pic-long.png" alt="" class="">
+                   <div class="carousel-caption">
+                       <h4 class="">First Slide Title</h4>
+                       <p class=""> Description for First Slide, this First Slide. </p>
+                   </div>
+               </div>
+               <div class="item" style="" >
+                   <img class="mykarusell-picture" src="../images/dummy-pic.png" alt="" class="">
+                   <div class="carousel-caption">
+                       <h4 class="">Second Slide Title</h4>
+                       <p class=""> Description for Second Slide, this is Second Slide.</p>
+                   </div>
+               </div>
+               <div class="item" style="">
+                   <img src="../images/dummy-pic.png" alt="" class="">
+                   <div class="carousel-caption">
+                       <h4 class="">3rd Slide Title</h4>
+                       <p class=""> Description for First Slide, this First Slide. </p>
+                   </div>
+               </div>
+               <div class="item" style="">
+                   <img src="../images/dummy-pic.png" alt="" class="">
+                   <div class="carousel-caption">
+                       <h4 class="">4th Slide Title</h4>
+                       <p class=""> Description for First Slide, this First Slide. </p>
+                   </div>
+               </div>
+           </div>
+           
+           <!-- Schalter -->
+           <a class="left carousel-control" href="#meinKarusell" role="button" data-slide="prev">
+               <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+               <span class="sr-only">Zurück</span>
+           </a>
+           <a class="right carousel-control" href="#meinKarusell" role="button" data-slide="next">
+               <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+               <span class="sr-only">Weiter</span>
+           </a>
+        </div> 
+        
         <section class="section content">
             <div class="jumbotron">
                 <h2 >Willkommen auf der Konzeptseite der Crimson Monkeys</h2>
@@ -73,25 +127,25 @@
                 </div>
             </div>
         </section>
-    </main>    
-    <section class="container panel">
-        <h2 class="txt-gallery-headline"><strong>Mockup, Konzept bilder etc.</strong></h2>
-        <div class="row">
-            <ul class="img-gallery">
-                <li class="col-lg-4"><a class="thumbnail img-overlay" href="../images/dummy-pic.png" rel="lightbox" title="sample"><img src="../images/dummy-pic.png">Sample</a></li>
-                <li class="col-lg-4"><a class="thumbnail img-overlay" href="../images/dummy-pic.png" rel="lightbox" title="sample"><img src="../images/dummy-pic.png">Sample</a></li>
-                <li class="col-lg-4"><a class="thumbnail img-overlay" href="../images/dummy-pic.png" rel="lightbox" title="sample"><img src="../images/dummy-pic.png">Sample</a></li>
-                <li class="col-lg-4"><a class="thumbnail img-overlay" href="../images/dummy-pic.png" rel="lightbox" title="sample"><img src="../images/dummy-pic.png">Sample</a></li>
-                <li class="col-lg-4"><a class="thumbnail img-overlay" href="../images/dummy-pic.png" rel="lightbox" title="sample"><img src="../images/dummy-pic.png">Sample</a></li>
-                <li class="col-lg-4"><a class="thumbnail img-overlay" href="../images/dummy-pic.png" rel="lightbox" title="sample"><img src="../images/dummy-pic.png">Sample</a></li>
-            </ul>
-            <div>
-                <h3 class="txt-gallery">Hier sollte ein wunderbarer Text stehen in dem Wir erklären warum unser Produkt das beste ist.</h3>
-            </div>
-        </div>
-    </section>
-    <section class="container">
-    <div class="panel panel-default">
+ 
+    
+   
+      
+     <div class="row panel">
+         <h2 class="txt-gallery-headline"><strong>Mockup, Konzept bilder etc.</strong></h2>
+         <section class="img-gallery">
+             <div class="col-lg-4"><a class="thumbnail img-overlay" href="../images/dummy-pic.png" rel="lightbox" title="sample"><img src="../images/dummy-pic.png">Sample</a></div>
+             <div class="col-lg-4"><a class="thumbnail img-overlay" href="../images/dummy-pic.png" rel="lightbox" title="sample"><img src="../images/dummy-pic.png">Sample</a></div>
+             <div class="col-lg-4"><a class="thumbnail img-overlay" href="../images/dummy-pic.png" rel="lightbox" title="sample"><img src="../images/dummy-pic.png">Sample</a></div>
+             <div class="col-lg-4"><a class="thumbnail img-overlay" href="../images/dummy-pic.png" rel="lightbox" title="sample"><img src="../images/dummy-pic.png">Sample</a></div>
+             <div class="col-lg-4"><a class="thumbnail img-overlay" href="../images/dummy-pic.png" rel="lightbox" title="sample"><img src="../images/dummy-pic.png">Sample</a></div>
+             <div class="col-lg-4"><a class="thumbnail img-overlay" href="../images/dummy-pic.png" rel="lightbox" title="sample"><img src="../images/dummy-pic.png">Sample</a></div>
+         </section>
+         <div>
+             <h3 class="txt-gallery">Hier sollte ein wunderbarer Text stehen in dem Wir erklären warum unser Produkt das beste ist.</h3>
+         </div>
+     </div>
+     <div class="panel panel-default">
       <div class="panel-heading">Projektinformation</div>
         <div class="panel-body">
             <p> Dies ist ein Projekt von Studenten der TH Köln für das Fach Web-basierte Anwendungen 1.
@@ -131,17 +185,17 @@
                 <tr>
                   <td> </td>
                   <td>3</td>
-                  <td>Doe</td>
-                  <td>Jon</td>
-                  <td>Muster</td>
+                  <td>Jost</td>
+                  <td>Jan Peter</td>
+                  <td><a href="https://github.com/JaypsD">JaypsD</a></td>
                   <td>Muster</td>
                 </tr>
                 <tr>
                   <td> </td>
                   <td>4</td>
-                  <td>Doe</td>
-                  <td>Jon</td>
-                  <td>Muster</td>
+                  <td>Garzke</td>
+                  <td>Alexander</td>
+                  <td><a href="https://github.com/agarzke">agarzke</a></td>
                   <td>Muster</td>
                 </tr>
                 <tr>
@@ -156,18 +210,21 @@
         </section> 
         </table>  
     </div>
-    </section>
-    <div class="container">
+
+    </main>
+
     <footer class="panel-footer footy">
-        <ul class="list-inline">
-            <li><a href="https://github.com/KayRuck/BigChallenge2017">Git Repo</a> </li>
-            <li><a href="http://samplel.com/">Blog</a> </li>
-            <li><a href="http://samplel.com/">Über uns</a></li>
-            <li><a href="http://samplel.com/">Impressum</a></li>
-            <li><a href="http://samplel.com/">Datenschutz</a></li>
-        </ul>
+        <div class="container">
+            <ul class="list-inline">
+                <li><a href="https://github.com/KayRuck/BigChallenge2017">Git Repo</a> </li>
+                <li><a href="http://samplel.com/">Blog</a> </li>
+                <li><a href="http://samplel.com/">Über uns</a></li>
+                <li><a href="http://samplel.com/">Impressum</a></li>
+                <li><a href="http://samplel.com/">Datenschutz</a></li>
+            </ul>
+        </div>
     </footer>
-    </div>
+
 </body>
 
 </html>
