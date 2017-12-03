@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="de">
     
-<!--Framework made by Bootstrap from https://getbootstrap.com/-->
+<!--Framework made by  Twitter. Inc. (Bootstrap) from https://getbootstrap.com/
+    Copyright 2011-2017 Twitter, Inc.-->
 
 <head>
 
@@ -12,20 +13,21 @@
     <link rel="icon" href="img/Crimson_monkey_1616.png" sizes="16x16" type="png">
 
     <title>Big Challenge 2017</title>
-
+    
+    <!-- Google Font Montserrat -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:200,400,500,600,700">
+    
     <!-- Normalize and Resets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
 
-    <!--Javascript made by Lokesh Dhakar from http://lokeshdhakar.com/projects/lightbox/ Twitter: https://twitter.com/lokesh-->
-    <script type="text/javascript" src="/lightbox/js/lightbox.js"></script>
-    
-    <script type="text/javascript" src="/js/ownjs.js"></script>
     <!-- Custom Styles -->
     <!-- normilize -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     
-    <link rel="stylesheet" href="css/owncss.css">
+    <!--Bootstrap Slider-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
     <link rel="stylesheet" href="css/bootstrap-theme.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -36,7 +38,7 @@
 
 <body>
     <header class="site-header">
-       <nav class="navbar navbar-inverse navbar-fixed-top">
+       <nav class="navbar navbar-inverse">
             <div class="container">
 
                 <div class="navbar-header"> 
@@ -55,56 +57,56 @@
         </nav>
     </header>
 
-    <main  class="container mycontainer">
-        <div class="alert alert-danger" role="alert"><p>WARNUNG! Dies ist ein Projekt von Studenten</p></div>
+    <main  class="container panel mycontainer">
+        <div class="alert alert-danger" role="alert"> WARNUNG! Dies ist ein Projekt von Studenten</div>
         
-                <div id="meinKarusell" class="carousel slide mykarusell">
+        <div id="carousel-example-generic" class="carousel slide mykarusell" data-ride="carousel">
            <!-- Positionsanzeiger -->
            <ol class="carousel-indicators">
-               <li data-target="#meinKarusell" data-slide-to="0" class="active" contenteditable="false"></li>
-               <li data-target="#meinKarusell" data-slide-to="1" class="" contenteditable="false"></li>
-               <li data-target="#meinKarusell" data-slide-to="2" class="" contenteditable="false"></li>
-               <li data-target="#meinKarusell" data-slide-to="3" class="" contenteditable="false"></li>
+               <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+               <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+               <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+               <li data-target="#carousel-example-generic" data-slide-to="3"></li>
            </ol>
            <!-- Verpackung für die Elemente -->
-           <div class="carousel-inner" role="listbox">
+           <div class="carousel-inner">
                <div class="item active">
-                   <img src="../images/dummy-pic-long.png" alt="" class="">
+                   <img src="img/dummy-pic-long.png">
                    <div class="carousel-caption">
-                       <h4 class="">First Slide Title</h4>
-                       <p class=""> Description for First Slide, this First Slide. </p>
+                       <h4>First Slide Title</h4>
+                       <p> Description for First Slide, this First Slide. </p>
                    </div>
                </div>
-               <div class="item" style="" >
-                   <img class="mykarusell-picture" src="../images/dummy-pic.png" alt="" class="">
+               <div class="item">
+                   <img src="img/dummy-pic-long-1.png">
                    <div class="carousel-caption">
-                       <h4 class="">Second Slide Title</h4>
-                       <p class=""> Description for Second Slide, this is Second Slide.</p>
+                       <h4>Second Slide Title</h4>
+                       <p> Description for Second Slide, this is Second Slide.</p>
                    </div>
                </div>
-               <div class="item" style="">
-                   <img src="../images/dummy-pic.png" alt="" class="">
+               <div class="item">
+                   <img src="img/dummy-pic-long-2.png">
                    <div class="carousel-caption">
-                       <h4 class="">3rd Slide Title</h4>
-                       <p class=""> Description for First Slide, this First Slide. </p>
+                       <h4>3rd Slide Title</h4>
+                       <p> Description for First Slide, this First Slide. </p>
                    </div>
                </div>
-               <div class="item" style="">
-                   <img src="../images/dummy-pic.png" alt="" class="">
+               <div class="item">
+                   <img src="img/dummy-pic-long-3.png">
                    <div class="carousel-caption">
-                       <h4 class="">4th Slide Title</h4>
-                       <p class=""> Description for First Slide, this First Slide. </p>
+                       <h4>4th Slide Title</h4>
+                       <p> Description for First Slide, this First Slide. </p>
                    </div>
                </div>
            </div>
            
            <!-- Schalter -->
-           <a class="left carousel-control" href="#meinKarusell" role="button" data-slide="prev">
-               <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+           <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+               <span class="glyphicon glyphicon-chevron-left"></span>
                <span class="sr-only">Zurück</span>
            </a>
-           <a class="right carousel-control" href="#meinKarusell" role="button" data-slide="next">
-               <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+           <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+               <span class="glyphicon glyphicon-chevron-right"></span>
                <span class="sr-only">Weiter</span>
            </a>
         </div> 
@@ -117,35 +119,126 @@
                 
                 <h5>Wie weit sind wir mit dem Projekt fortgeschritten</h5>
                 <div class="progress">
-                    
                     <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">60%</div>
                 </div>
-                
                 <h5>Wie weit haben wir unsere Ideen umgesetzt</h5>
                 <div class="progress">
                     <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">20%</div>
                 </div>
+                
+                <h5>Unsere Ideen</h5>
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                                    Idee Nummer 1</a>
+                            </h4>
+                        </div>
+                        <div id="collapse1" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                            Hier steht unsere erste Idee.
+                            Welche zu vie viel Prozent fertig gestellt ist
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">60%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                                    Idee Nummer 2</a>
+                            </h4>
+                        </div>
+                        <div id="collapse2" class="panel-collapse collapse">
+                            <div class="panel-body">
+                            Hier steht unsere zweite Idee
+                            Welche zu vie viel Prozent fertig gestellt ist
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">60%</div>
+                                </div>                             
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                                    Idee Nummer 3</a>
+                            </h4>
+                        </div>
+                        <div id="collapse3" class="panel-collapse collapse">
+                            <div class="panel-body">
+                            Hier steht unsere dritte Idee
+                                                            Welche zu vie viel Prozent fertig gestellt ist
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">60%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+
+                
             </div>
         </section>
- 
-    
-   
-      
-     <div class="row panel">
-         <h2 class="txt-gallery-headline"><strong>Mockup, Konzept bilder etc.</strong></h2>
-         <section class="img-gallery">
-             <div class="col-lg-4"><a class="thumbnail img-overlay" href="../images/dummy-pic.png" rel="lightbox" title="sample"><img src="../images/dummy-pic.png">Sample</a></div>
-             <div class="col-lg-4"><a class="thumbnail img-overlay" href="../images/dummy-pic.png" rel="lightbox" title="sample"><img src="../images/dummy-pic.png">Sample</a></div>
-             <div class="col-lg-4"><a class="thumbnail img-overlay" href="../images/dummy-pic.png" rel="lightbox" title="sample"><img src="../images/dummy-pic.png">Sample</a></div>
-             <div class="col-lg-4"><a class="thumbnail img-overlay" href="../images/dummy-pic.png" rel="lightbox" title="sample"><img src="../images/dummy-pic.png">Sample</a></div>
-             <div class="col-lg-4"><a class="thumbnail img-overlay" href="../images/dummy-pic.png" rel="lightbox" title="sample"><img src="../images/dummy-pic.png">Sample</a></div>
-             <div class="col-lg-4"><a class="thumbnail img-overlay" href="../images/dummy-pic.png" rel="lightbox" title="sample"><img src="../images/dummy-pic.png">Sample</a></div>
-         </section>
-         <div>
-             <h3 class="txt-gallery">Hier sollte ein wunderbarer Text stehen in dem Wir erklären warum unser Produkt das beste ist.</h3>
+        
+        <div class="row panel">
+        <h2 class="txt-gallery-headline"><strong>Mockup, Konzept bilder etc.</strong></h2>
+            
+          <div class="col-lg-4">
+            <a class="thumbnail img-overlay">
+                <img id="dummyImg" src="img/dummy-pic-long.png" alt="sample" titel="sample"> 
+                <div id="myfirstmodal" class="modal col-lg-4"> 
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+            </a>
          </div>
-     </div>
-     <div class="panel panel-default">
+         
+         <div class="col-lg-4">
+            <a class="thumbnail img-overlay">
+                <img id="dummyImg" src="img/dummy-pic-long-1.png" alt="besipel" title="besipel"> 
+                <div id="myfirstmodal" class="modal col-lg-4"> 
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+            </a>
+         </div>
+         
+          <div class="col-lg-4">
+            <a class="thumbnail img-overlay">
+                <img id="dummyImg" src="img/dummy-pic-long-2.png" alt="example" title="example"> 
+                <div id="myfirstmodal" class="modal col-lg-4"> 
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+            </a>
+         </div>
+         
+          <div class="col-lg-4">
+            <a class="thumbnail img-overlay">
+                <img id="dummyImg" src="img/dummy-pic-long-3.png" alt="vorführung" title="vorführung"> 
+                <div id="myfirstmodal" class="modal col-lg-4"> 
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+            </a>
+         </div>
+
+             <div class="col-lg-12"><h3>Hier sollte ein wunderbarer Text stehen in dem Wir erklären warum unser Produkt das beste ist.</h3></div>
+        </div>
+ 
+        <div class="panel panel-default">
       <div class="panel-heading">Projektinformation</div>
         <div class="panel-body">
             <p> Dies ist ein Projekt von Studenten der TH Köln für das Fach Web-basierte Anwendungen 1.
@@ -224,7 +317,10 @@
             </ul>
         </div>
     </footer>
+    
 
+    <script type="text/javascript" src="js/model.js"></script>
+    <script type="text/javascript" src="js/ownjs.js"></script>
 </body>
 
 </html>
