@@ -1,0 +1,40 @@
+/*--------------------------------------------------------*/
+.panel-tes {
+  border-color: rgb(168, 0, 28);
+}
+.panel-tes > .panel-heading {
+  color: white;
+  background-color: rgb(229, 24, 55);
+  border-color: rgb(168, 0, 28);
+}
+.panel-tes > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: rgb(168, 0, 28);
+}
+.panel-tes > .panel-heading .badge {
+  color: rgb(229, 24, 55);
+  background-color:  white;
+}
+.panel-tes > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color:  rgb(168, 0, 28);
+}
+
+/*--------------------------------------------------------*/
+.panel-tes-inverse {
+  border-color: rgb(168, 0, 28);
+}
+.panel-tes-inverse  > .panel-heading {
+  color: rgb(168, 0, 28);
+  background-color: #ffe8ec;
+  border-color: rgb(229, 24, 55);
+}
+.panel-tes-inverse > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: rgb(229, 24, 55);
+}
+.panel-tes-inverse  > .panel-heading .badge {
+  color: rgb(168, 0, 28;
+  background-color: #ffe8ec;
+}
+.panel-tes-inverse  > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color:  rgb(229, 24, 55);
+}
+
