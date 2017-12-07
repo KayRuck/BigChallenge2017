@@ -26,9 +26,8 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
     border-top: solid 1px var(--color-borders);
 }
 
-.chart div{
-    font: 10px sans-serif;
-  background-color: steelblue;
+.chart{
+    font: 10px Montserrat;
   text-align: right;
   padding: 3px;
   margin: 1px;

@@ -1,12 +1,15 @@
+//mit Hilfe von d3 Workshopleiter
+
 var data = [
-{ k: 'PS', v: 30},
-{ k: 'km', v: 40},
-{ k: 'ajfn', v: 50},
+{ k: 'PS-Anzeige', v: 30},
+{ k: 'Bremsen', v: 40},
+{ k: 'Lenkeinschlag', v: 50},
+{ k: 'Gas', v: 89}
 ];
 
 var svg_width = 400,
     svg_height = 150,
-    svg = d3.select('#chart').append('svg').attr('width', svg_width).attr('height', svg_height),
+    svg = d3.select('.chart').append('svg').attr('width', svg_width).attr('height', svg_height),
     margin = {top: 20, right:20, bottom: 30, left:40, },
     width = svg_width - margin.left -margin.right,
     height = svg_height -margin.top -margin.bottom;
