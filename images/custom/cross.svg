@@ -1,15 +1,15 @@
-<svg width="302" height="302" viewBox="0 0 302 302" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="302" height="303" viewBox="0 0 302 303" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>Untitled</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(151 0)">
-<g id="Line">
-<use xlink:href="#path0_stroke" transform="matrix(-4.37114e-08 1 1 4.37114e-08 -2.22044e-16 0)" fill="#E0E0E0"/>
+<g id="Canvas" transform="translate(0 151)">
+<g id="Rectangle">
+<use xlink:href="#path0_fill" transform="matrix(6.12323e-17 -1 1 6.12323e-17 150.5 151.5)" fill="#828282"/>
 </g>
-<g id="Line">
-<use xlink:href="#path0_stroke" transform="matrix(1 -1.60812e-16 -1.60812e-16 -1 -151 151)" fill="#E0E0E0"/>
+<g id="Rectangle">
+<use xlink:href="#path0_fill" fill="#828282"/>
 </g>
 </g>
 <defs>
-<path id="path0_stroke" d="M 0 0.5L 302 0.5L 302 -0.5L 0 -0.5L 0 0.5Z"/>
+<path id="path0_fill" d="M 0 0.5C 0 0.223858 0.223858 0 0.5 0L 301.5 0C 301.776 0 302 0.223858 302 0.5L 302 0.5C 302 0.776142 301.776 1 301.5 1L 0.500003 1C 0.22386 1 0 0.776142 0 0.5L 0 0.5Z"/>
 </defs>
 </svg>
