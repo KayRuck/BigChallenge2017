@@ -58,7 +58,7 @@
 
                         <img src="images/custom/cross.svg">
                         <div class="top-left">
-                            <input type="image" src="images/custom/flash.svg" width="50%" />
+                            <input onclick="energy()" type="image" src="images/custom/flash.svg" width="50%" />
                             <p class="icon-text">Energie</p>
                         </div>
                         <div class="top-right">
@@ -84,11 +84,17 @@
             <section id="section2" class="bottom-area__item">
                 <div class="screen__content is-scrollable" draggable="true"  data-screen-content>
                     <!-- Put your Content here ###########################################-->
-
+                    
+                    <p class="data-text" id="datachart" style="display:none"><strong>Motorleistung:</strong> 244kW
+                    <br/> <strong>Reichweite:</strong> 490 km elektrisch
+                    <br/> <strong>Fahrzeuggewicht:</strong> 2.200 kg
+                    <br/> <strong>Batterie:</strong> 75 kWh Lithium-lonen
+                    <br/> <strong>Beschleunigung 0-100 km/h:</strong> 4,4 Sekunden</p>
+                    
                     <scipt language="JavaScript">
 
 
-                    <div class="row" id="liquid">
+                    <div class="row" id="liquid" style="display:none">
                     <div class="col-md-6 col-md-offset-3">
                     <div style="width: 400px; height: 400px; margin-left: 20%; margin-top: 40px;">
                         <svg width="100%" height="100%">
@@ -162,7 +168,7 @@
                 <div class="screen__content is-scrollable" draggable="true" data-screen-content>
                     <!-- Put your Content here ###########################################-->
                     
-                    <div class="data-text" id="datachart"></div>
+                    
 
                     <!-- End of content box 4 ############################################-->
             </div>
