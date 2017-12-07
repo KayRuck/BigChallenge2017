@@ -59,22 +59,21 @@
                         <img src="images/custom/cross.svg">
                         <div class="top-left">
                             <input type="image" src="images/custom/flash.svg" width="50%" />
-                            <p class="icon-text">Lorem ipsum</p>
+                            <p class="icon-text">Energie</p>
                         </div>
                         <div class="top-right">
                             <input type="image" src="images/custom/auto.svg" width="100%" />
-                            <p class="icon-text">Lorem ipsum</p>
+                            <p class="icon-text">Fahrzeugdetails</p>
                         </div>
                         <div class="bottom-left">
-                            <input type="image" src="images/custom/schraubenschluessel.svg" width="50%" />
-                            <p class="icon-text">Lorem ipsum</p>
+                            <input onclick="datachart()" type="image" src="images/custom/schraubenschluessel.svg" width="50%" />
+                            <p class="icon-text">Allgemeine Daten</p>
                         </div>
                         <div class="bottom-right">
                             <input type="image" src="images/custom/strasse.svg" width="30%" />
-                            <p class="icon-text">Lorem ipsum</p>
+                            <p class="icon-text">Spurverhalten</p>
                         </div>
                     </div>
-
 
                     <!-- End of content box 4 ############################################-->
                 </div>
@@ -162,19 +161,11 @@
             <section id="section4" class="bottom-area__item">
                 <div class="screen__content is-scrollable" draggable="true" data-screen-content>
                     <!-- Put your Content here ###########################################-->
-
-
-                    <div class="card">
-                        <img class="card-img-top" src="https://static.pexels.com/photos/675764/pexels-photo-675764.jpeg" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title">Card title</h4>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
+                    
+                    <div class="data-text" id="datachart"></div>
 
                     <!-- End of content box 4 ############################################-->
-                </div>
+            </div>
             </section>
 
         </div>
@@ -200,6 +191,9 @@
     <script src="scripts/tesla-layout-switch.js"></script>
 
     <!-- Verschiedene Layouts via Query String -->
-    <script src="scripts/tesla-main-control.js"#></script>
+    <script src="scripts/tesla-main-control.js"></script>
+
+    <script src="scripts/navigation.js"></script>
+}
 
 </body>
