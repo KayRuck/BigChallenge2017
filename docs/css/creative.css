@@ -230,3 +230,27 @@ header.masthead {
     background-color: crimson!important; }
   .btn-primary:active, .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem rgba(60, 0, 0, 0.5) !important; }
+
+.chart .bar {
+  position: relative;
+  background-color: steelblue;
+  height: 40px;
+  margin-top: 5px;    
+}
+
+.chart .bar .label {
+  position: absolute;
+  top: 9px;
+  right: 15px;
+  color: white;
+  font: 18px sans-serif;
+}
+
+.chart .bar .name {
+  position: absolute;
+  top: 9px;
+  left: 10px;
+  color: white;
+  font: 18px sans-serif;
+  opacity: .5;
+}
