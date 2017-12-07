@@ -33968,7 +33968,7 @@ var LiquidFillGauge = (_temp = _class = function (_PureComponent) {
         fill: 'rgb(23, 139, 202)'
     },
     textStyle: {
-        fill: 'rgb(0, 0, 0)'
+        fill: '#F2F2F2'
     },
     waveTextStyle: {
         fill: 'rgb(255, 255, 255)'
