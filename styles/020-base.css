@@ -88,29 +88,30 @@ h4 {
 /* Bottom left text */
 .bottom-left {
     position: absolute;
-    bottom: 20%;
-    left: 20%;
+    bottom: 10%;
+    left: 15%;
 }
 
 /* Top left text */
 .top-left {
     position: absolute;
-    top: 20%;
-    left: 20%;
+    top: 10%;
+    left: 15%;  
+    
 }
 
 /* Top right text */
 .top-right {
     position: absolute;
-    top: 20%;
-    right: 20%;
+    top: 10%;
+    right: 15%;
 }
 
 /* Bottom right text */
 .bottom-right {
     position: absolute;
-    bottom: 20%;
-    right: 20%;
+    bottom: 10%;
+    right: 15%;
 }
 
 
