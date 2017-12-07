@@ -26,10 +26,14 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
     border-top: solid 1px var(--color-borders);
 }
 
+
 .chart{
-    font: 10px Montserrat;
-  text-align: right;
+  font: 50px sans-serif;
   padding: 3px;
   margin: 1px;
   color: white;
+}
+
+.bar{
+    fill: steelblue;
 }
