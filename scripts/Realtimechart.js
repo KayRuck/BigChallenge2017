@@ -7,14 +7,19 @@
  
 <script> 
  
-var graph = new Rickshaw.Graph({
-    series: [ { data: [ { x: 0, y: 2 }, { x: 1, y: 4 } ...
-    renderer: 'area',
-    element: document.querySelector('#graph')
-});
-    }]
-});
- 
+
+var data = [ { x: 1 , y: 185 }, { x: 2 , y: 186 }, { x: 3 , y: 189 }, { x: 4 , y: 200 }, { x: 5 , y: 189 }, { x: 6 , y: 200 } ];
+
+var graph = new Rickshaw.Graph( {
+        element: document.querySelector("#chart"),
+        width: 580,
+        height: 250,
+        series: [ {
+                color: 'steelblue',
+                data: data
+        } ]
+} );
+
 graph.render();
- 
-</script> 
+
+</script>
