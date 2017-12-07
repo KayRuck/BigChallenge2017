@@ -1,0 +1,20 @@
+<svg width="105" height="221" viewBox="0 0 105 221" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Flash</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(9 -9)">
+<g id="Group">
+<g id="Canvas">
+<g id="power">
+<g id="scale">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(-9 9)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 53.9199 84.9989L 53.9199 0L 0.454413 127.947C -1.14624 131.778 1.67912 136.001 5.84024 136.001L 51.0802 136.001L 51.0802 221L 104.546 93.0526C 106.146 89.2218 103.321 84.9989 99.16 84.9989L 53.9199 84.9989Z"/>
+</defs>
+</svg>
