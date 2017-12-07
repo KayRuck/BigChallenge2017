@@ -79,6 +79,11 @@ h4 {
     color: var(--color-headlines);
 }
 
+.rresize{
+    width: 400px;
+    height: auto;
+}
+
 
 /* helper
 -----------------------------------------------------------------------------*/

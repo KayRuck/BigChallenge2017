@@ -1,0 +1,15 @@
+<svg width="302" height="302" viewBox="0 0 302 302" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Untitled</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(151 0)">
+<g id="Line">
+<use xlink:href="#path0_stroke" transform="matrix(-4.37114e-08 1 1 4.37114e-08 -2.22044e-16 0)" fill="#E0E0E0"/>
+</g>
+<g id="Line">
+<use xlink:href="#path0_stroke" transform="matrix(1 -1.60812e-16 -1.60812e-16 -1 -151 151)" fill="#E0E0E0"/>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 0 0.5L 302 0.5L 302 -0.5L 0 -0.5L 0 0.5Z"/>
+</defs>
+</svg>
