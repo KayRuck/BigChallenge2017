@@ -1,5 +1,7 @@
 var dataopen=false;
 var energyopen=false;
+var detailsopen=false;
+var barchartopen=false;
 var anyopen=false;
 
 function datachart() {
@@ -8,6 +10,10 @@ function datachart() {
             {
                 document.getElementById("liquid").style.display="none";
                 energyopen=false;
+                document.getElementById("placeholder").style.display="none";
+                detailsopen=false;
+                document.getElementById("placeholder2").style.display="none";
+                barchartopen=false;
             }
             document.getElementById("datachart").style.display="inline";
             dataopen=true;
@@ -28,6 +34,10 @@ function energy(){
             {
                 document.getElementById("datachart").style.display="none";
                 dataopen=false;
+                document.getElementById("placeholder").style.display="none";
+                detailsopen=false;
+                document.getElementById("placeholder2").style.display="none";
+                barchartopen=false;
             }
             document.getElementById("liquid").style.display="inline";
             energyopen=true;
@@ -37,6 +47,52 @@ function energy(){
             {
                 document.getElementById("liquid").style.display="none";
                 energyopen=false;
+                anyopen=false;
+            }        
+}
+
+function details(){        
+        if(detailsopen==false){
+            if(anyopen==true)
+            {
+                document.getElementById("datachart").style.display="none";
+                dataopen=false;
+                document.getElementById("liquid").style.display="none";
+                energyopen=false;
+                document.getElementById("placeholder2").style.display="none";
+                barchartopen=false;
+            }
+            document.getElementById("placeholder").style.display="inline";
+            detailsopen=true;
+            anyopen=true;
+        }
+        else
+            {
+                document.getElementById("placeholder").style.display="none";
+                detailsopen=false;
+                anyopen=false;
+            }        
+}
+
+function barchart(){        
+        if(barchartopen==false){
+            if(anyopen==true)
+            {
+                document.getElementById("datachart").style.display="none";
+                dataopen=false;
+                document.getElementById("liquid").style.display="none";
+                energyopen=false;
+                document.getElementById("placeholder").style.display="none";
+                detailsopen=false;
+            }
+            document.getElementById("placeholder2").style.display="inline";
+            barchartopen=true;
+            anyopen=true;
+        }
+        else
+            {
+                document.getElementById("placeholder2").style.display="none";
+                barchartopen=false;
                 anyopen=false;
             }        
 }
