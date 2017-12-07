@@ -89,7 +89,7 @@ h4 {
 .bottom-left {
     position: absolute;
     bottom: 5%;
-    left: 12%;
+    left: 0%;
 }
 
 /* Top left text */
@@ -111,11 +111,12 @@ h4 {
 .bottom-right {
     position: absolute;
     bottom: 5%;
-    right: 12%;
+    right: -15%;
 }
 
 .icon-text{
-    margin-top: 10%;
+    position: relative;
+    top: 15px;
 }
 
 /* helper
