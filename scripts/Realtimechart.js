@@ -1,25 +1,52 @@
-<!doctype html>
-<script src="/vendor/d3.min.js"></script>
-<script src="/vendor/d3.layout.min.js"></script>
-<script src="/rickshaw.min.js"></script>
-
-<div id="chart"></div>
-
+<html>
+<head>
 <script>
+window.onload = function () {
 
+var chart = new CanvasJS.Chart("chartContainer", {
+	title: {
+		text: "Energieverbrauch each Boiler"
+	},
+	axisY: {
+		title: "Energieverbrauch in Wh",
+		suffix: " °C"
+	},
+	data: [{
+		type: "column",	
+		yValueFormatString: "#,### Wh",
+		indexLabel: "{y}",
+		dataPoints: [
+			{ label: "boiler1", y: 206 },
+			{ label: "boiler2", y: 163 },
+			{ label: "boiler3", y: 154 },
+			{ label: "boiler4", y: 176 },
+			{ label: "boiler5", y: 184 },
+			{ label: "boiler6", y: 122 }
+		]
+	}]
+});
 
-var data = [ { x: 1 , y: 185 }, { x: 2 , y: 186 }, { x: 3 , y: 189 }, { x: 4 , y: 200 }, { x: 5 , y: 189 }, { x: 6 , y: 200 } ];
+function updateChart() {
+	var boilerColor, deltaY, yVal;
+	var dps = chart.options.data[0].dataPoints;
+	for (var i = 0; i < dps.length; i++) {
+		deltaY = Math.round(2 + Math.random() *(-2-2));
+		yVal = deltaY + dps[i].y > 0 ? dps[i].y + deltaY : 0;
+		boilerColor = yVal > 200 ? "#FF2500" : yVal >= 170 ? "#FF6000" : yVal < 170 ? "#6B8E23 " : null;
+		dps[i] = {label: "Boiler "+(i+1) , y: yVal, color: boilerColor};
+	}
+	chart.options.data[0].dataPoints = dps; 
+	chart.render();
+};
+updateChart();
 
-var graph = new Rickshaw.Graph( {
-        element: document.querySelector("#chart"),
-        width: 580,
-        height: 250,
-        series: [ {
-                color: 'steelblue',
-                data: data
-        } ]
-} );
+setInterval(function() {updateChart()}, 500);
 
-graph.render();
-
+}
 </script>
+</head>
+<body>
+<div id="chartContainer" style="height: 370px; width: 100;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+</html>

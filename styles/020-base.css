@@ -116,7 +116,16 @@ h4 {
 
 .icon-text{
     position: relative;
+    text-align: center;
     top: 15px;
+}
+
+.energy-text{
+    position: relative;
+    text-align: center;
+    top: 15px;
+    color:white;
+    font-size: 200%;
 }
 
 .data-text{
