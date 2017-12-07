@@ -25,3 +25,12 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 .footer {
     border-top: solid 1px var(--color-borders);
 }
+
+.chart div{
+    font: 10px sans-serif;
+  background-color: steelblue;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color: white;
+}
