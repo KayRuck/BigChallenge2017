@@ -8,12 +8,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="styles/020-base.css">
+    <link rel="stylesheet" href="styles/030-typography.css">
+    <link rel="stylesheet" href="styles/040-layout.css">
+    <link rel="stylesheet" href="styles/050-components.css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="styles/generated/screen.css">
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet">
+
 
 </head>
 
@@ -67,7 +71,7 @@
                         </div>
                         <div class="bottom-left">
                             <input onclick="datachart()" type="image" src="images/custom/schraubenschluessel.svg" width="50%" />
-                            <p class="icon-text">Allgemeine Daten</p>
+                            <p class="icon-text">Technische Daten</p>
                         </div>
                         <div class="bottom-right">
                             <input type="image" src="images/custom/strasse.svg" width="30%" />
@@ -91,10 +95,12 @@
                     <br/> <strong>Batterie:</strong> 75 kWh Lithium-lonen
                     <br/> <strong>Beschleunigung 0-100 km/h:</strong> 4,4 Sekunden</p>
                     
-                    <scipt language="JavaScript">
+                    <scipt language="JavaScript"></scipt>
 
 
-                    <div class="row" id="liquid" style="display:none">
+                    <div class="row" id="liquid" style="display:none"></div>
+     
+                    <div class="row" id="liquid">
                     <div class="col-md-6 col-md-offset-3">
                     <div style="width: 400px; height: 400px; margin-left: 20%; margin-top: 40px;">
                         <svg width="100%" height="100%">
@@ -130,19 +136,18 @@
                                     <stop stop-color="#F2F5A9" stop-opacity="1" offset="50%"></stop>
                                     <stop stop-color="#BCF5A9" stop-opacity="1" offset="100%"></stop>
                                 </linearGradient>
-                            </defs>
-
-                          </svg>
+                            </defs> 
+                                
+                                                          </svg>
                         </div>
                         </div>
                         </div>
-
-                      </scipt>
-
-
-                    <!-- End of content box 4 ############################################-->
+                        
+                        
                 </div>
             </section>
+
+                    <!-- End of content box 4 ############################################-->
 
             <!-- Section 3: unten links
 				##########################################################################-->
@@ -153,13 +158,11 @@
 
                 <div class="screen__content" draggable="true" data-screen-content>
                     <!-- Put your Content here ###########################################-->
-
-                    <div class="demo">
                         <div class="chart"></div>
                     </div>
 
                     <!-- End of content box 3 ############################################-->
-             </div>
+        
             </section>
 
             <!-- Section 4: unten rechts
@@ -172,9 +175,11 @@
 
                     <!-- End of content box 4 ############################################-->
             </div>
+                
             </section>
-
+            
         </div>
+        
     </main>
 
     <!-- Optional JavaScript -->
@@ -183,8 +188,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-    <script src="BigChallenge2017/scripts/d3.js"></script>
-    <script src="BigChallenge2017/scripts/barchart-divs.js"></script>
+    <script src="scripts/d3.js"></script>
+    <script src="scripts/barchart-divs.js"></script>
 
     <!-- Drag & Drop zwischen den Screens -->
     <script src="scripts/tesla-dnd.js"></script>
@@ -200,6 +205,7 @@
     <script src="scripts/tesla-main-control.js"></script>
 
     <script src="scripts/navigation.js"></script>
+            
 }
 
 </body>
