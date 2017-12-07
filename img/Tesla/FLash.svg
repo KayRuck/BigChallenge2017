@@ -1,0 +1,21 @@
+<svg width="78" height="165" viewBox="0 0 78 165" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>FLash</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-9 18)">
+<rect x="9" y="-18" width="78" height="165" fill="#E5E5E5"/>
+<g id="Group">
+<g id="Canvas">
+<g id="power">
+<g id="scale">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(9 -18)" fill="#161616"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 40.0548 63.4607L 40.0548 0L 0.337564 95.5263C -0.851496 98.3865 1.24735 101.539 4.33846 101.539L 37.9453 101.539L 37.9453 165L 77.6624 69.4737C 78.8514 66.6135 76.7529 63.4607 73.6617 63.4607L 40.0548 63.4607Z"/>
+</defs>
+</svg>
