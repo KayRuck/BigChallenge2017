@@ -6,7 +6,8 @@ function datachart() {
         if(dataopen==false){
             if(anyopen==true)
             {
-                return;
+                document.getElementById("liquid").style.display="none";
+                energyopen=false;
             }
             document.getElementById("datachart").style.display="inline";
             dataopen=true;
@@ -25,7 +26,8 @@ function energy(){
         if(energyopen==false){
             if(anyopen==true)
             {
-                return;
+                document.getElementById("datachart").style.display="none";
+                dataopen=false;
             }
             document.getElementById("liquid").style.display="inline";
             energyopen=true;
