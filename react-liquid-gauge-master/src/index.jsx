@@ -383,7 +383,7 @@ class LiquidFillGauge extends PureComponent {
                         />
                         <circle
                             r={radius}
-                            fill="rgba(0, 0, 0, 0)"
+                            fill="#F2F2F2"
                             stroke="rgba(0, 0, 0, 0)"
                             style={{ pointerEvents: 'all' }}
                             onClick={this.props.onClick}
