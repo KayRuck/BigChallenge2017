@@ -7,8 +7,8 @@ var data = [
 { k: 'Gas', v: 89}
 ];
 
-var svg_width = 400,
-    svg_height = 150,
+var svg_width = 500,
+    svg_height = 300,
     svg = d3.select('.chart').append('svg').attr('width', svg_width).attr('height', svg_height),
     margin = {top: 20, right:20, bottom: 30, left:40, },
     width = svg_width - margin.left -margin.right,
