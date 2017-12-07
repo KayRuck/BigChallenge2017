@@ -1,0 +1,22 @@
+<svg width="392" height="300" viewBox="0 0 392 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>stra&#195;&#159;e</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(442 1592)">
+<g id="Group 2">
+<g id="Rectangle 2">
+<use xlink:href="#path0_fill" transform="translate(-442 -1592)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle 3">
+<use xlink:href="#path1_fill" transform="translate(-279.78 -1591.61)"/>
+</g>
+<g id="Rectangle 3.1">
+<use xlink:href="#path2_fill" transform="translate(-287 -1452)"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 81.2266 25.0828C 85.6215 10.2081 99.2819 0 114.792 0L 271.337 0C 286.595 0 300.095 9.88447 304.703 24.4301L 377.564 254.43C 384.712 276.995 367.868 300 344.198 300L 46.8368 300C 23.4525 300 6.64526 277.509 13.2712 255.083L 81.2266 25.0828Z"/>
+<path id="path1_fill" d="M 7.32519 18.5695C 8.07551 8.10577 16.7833 0 27.274 0L 41.9204 0C 52.5127 0 61.2682 8.25857 61.8863 18.8329L 66.6052 99.5578C 67.2766 111.043 58.1438 120.725 46.6393 120.725L 21.4855 120.725C 9.87644 120.725 0.70639 110.874 1.5367 99.2945L 7.32519 18.5695Z"/>
+<path id="path2_fill" d="M 9.03449 18.5328C 9.80303 8.08458 18.5041 0 28.9806 0L 54.1733 0C 64.754 0 73.5041 8.24108 74.1374 18.8029L 80.2152 120.16C 80.9046 131.656 71.7675 141.357 60.2511 141.357L 21.5252 141.357C 9.90153 141.357 0.726358 131.482 1.57905 119.89L 9.03449 18.5328Z"/>
+</defs>
+</svg>
